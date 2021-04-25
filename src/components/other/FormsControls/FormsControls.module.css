@@ -1,0 +1,28 @@
+
+/*.formControl {
+	position: relative;
+}
+
+.formControl.error span {
+	color: red;
+	display: inline-block;
+}
+
+.errorMessage {
+	position: absolute;
+	left: 440px;
+	bottom: 4px;
+	width: 300px;
+}*/
+
+.formControl.error span {
+	color: var(--main);
+}
+
+.errorMessage {
+	display: inline-block;
+/*	position: relative;
+	top: 0px;*/
+	font-size: 14px;
+}
+

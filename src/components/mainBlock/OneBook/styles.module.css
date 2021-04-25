@@ -1,0 +1,10 @@
+.wrapper {
+	padding-bottom: 20px;
+}
+
+
+.disabled {
+	opacity: 0.7;
+	pointer-events: none;
+}
+

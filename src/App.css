@@ -1,0 +1,114 @@
+/*Обнуление*/
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+/*html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}*/
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+/* Set core body defaults */
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+    background-color: var(--firstBg);
+    width: 12px;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: var(--additional);
+    height: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+*::-moz-selection {
+  background-color: var(--selection);
+}
+
+*::selection {
+  background-color: var(--selection);
+}
+
+.wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--firstBg);
+  color: var(--color);
+}
+
+.wrapper.init {
+  text-align: center;
+  padding-top: 300px;
+}
+
+.mainBlock {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 46px;
+}
+
+@media(max-width: 996px) {
+  .mainBlock {
+    width: 96%;
+  }
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: var(--forText);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: var(--forText);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: var(--forText);
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: var(--forText);
+  opacity: 1;
+}

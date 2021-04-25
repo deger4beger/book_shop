@@ -1,0 +1,9 @@
+.wrapper {
+	color: var(--color);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

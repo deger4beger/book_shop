@@ -1,0 +1,94 @@
+.info {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 100px;
+	font-size: 22px;
+	position: relative;
+}
+
+.innerInfo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+	border-bottom: 1px solid var(--additional);
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 40px;
+}
+
+.firstButton {
+	position: relative;
+	right: 20px;
+}
+
+.priceBlock {
+	width: 240px;
+}
+
+.distinct {
+	color: var(--main);
+	font-style: italic;
+	text-decoration: underline;
+	text-decoration-color: var(--main);
+}
+
+.relative {
+	position: relative;
+}
+
+.discount {
+	position: absolute;
+	top: -26px;
+	font-style: italic;
+	left: 40px;
+	font-size: 20px;
+	color: var(--forText);
+}
+
+.checkbox {
+	display: flex;
+	font-size: 16px;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 104px;
+	padding-top: 30px;
+}
+
+
+@media(max-width: 1442px) {
+	.info {
+		width: 97%;
+	}
+}
+
+@media(max-width: 625px) {
+	.firstButton {
+		left: 0px;
+		margin-right: 10px;
+	}
+	.buttons {
+		margin-left: 0;
+		margin-top: 17px;
+	}
+}
+
+@media(max-width: 478px) {
+	.firstButton {
+		left: 0px;
+		margin-right: 0px;
+		margin-bottom: 14px;
+	}
+	.buttons {
+		margin-left: 0;
+		margin-top: 17px;
+	}
+	.orderPrice {
+		margin-bottom: 40px;
+	}
+}

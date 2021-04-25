@@ -1,0 +1,67 @@
+.distinct {
+	color: var(--main);
+	font-style: italic;
+	text-decoration: underline;
+	text-decoration-color: var(--main);
+}
+
+.orderInfo {
+	font-size: 20px;
+}
+
+.orderDiscount {
+	position: relative;
+	left: 20px;
+	bottom: 10px;
+}
+
+.orderTitle {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 26px;
+}
+
+.orderBig {
+	margin-right: 5px;
+}
+
+.orderData {
+	padding-bottom: 10px;
+	border-bottom: 1px dashed var(--forText)
+}
+
+.orderPrice {
+	padding-top: 10px;
+}
+
+.link {
+	color: var(--main);
+	font-style: italic;
+	font-size: 22px;
+	width: 40px;
+	margin: 0 auto;
+	display: block;
+}
+
+.link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.confirmOrderButton {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.changeOrderButton {
+	position: absolute;
+	right: 20px;
+	bottom: 100px;
+}
+
+@media(max-width: 478px) {
+	.orderPrice {
+		margin-bottom: 40px;
+	}
+}

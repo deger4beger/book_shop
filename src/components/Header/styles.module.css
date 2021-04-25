@@ -1,0 +1,128 @@
+.wrapper {
+	width: 100%;
+	height: 46px;
+	background-color: var(--secBg);
+	position: fixed;
+	color: var(--color);
+	border-bottom: 1px solid var(--additional);
+	z-index: 10;
+}
+
+.content {
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: 400;
+}
+
+.link, .link:hover, .link:focus, .link:visited, .link:link, .link:active {
+	text-decoration: none;
+	color: var(--color)
+}
+
+.logo {
+	display: flex;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+.logoIcon {
+	width: 32px;
+	height: 32px;
+	margin-top: 4px;
+}
+
+.title {
+	color: var(--main);
+	font-size: 28px;
+}
+
+.routes {
+	display: flex;
+	padding-top: 10px;
+	position: relative;
+	left: 104px;
+}
+
+.route {
+	font-size: 18px;
+	margin-right: 30px;
+}
+
+.routeItem {
+	font-weight: 500;
+}
+
+.routeItem:hover {
+	color: var(--main);
+	transition: 0.2s;
+}
+
+.options {
+	display: flex;
+}
+
+.cartButton {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.disabled {
+	pointer-events: none;
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.route {
+		margin-right: 15px;
+	}
+	.routes {
+		left: 120px;
+	}
+	.logo {
+		display: none;
+		position: absolute;
+	}
+	.content {
+		justify-content: center;
+	}
+	.options {
+		margin-right: 80px;
+	}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 550px) {
+	.route {
+		font-size: 14px;
+		margin-right: 15px;
+	}
+	.content {
+		justify-content: center;
+	}
+	.routes {
+		position: absolute;
+		top: 45px;
+		border-bottom: 2px solid var(--additional);
+	}
+	.options {
+		margin-right: 0;
+	}
+}
+
+/*если что то падает на 650px, тогда */
+
+@media(max-width: 1180px) {
+	.content {
+		width: 95%;
+	}
+	.routes {
+		margin-right: 120px;
+	}
+}

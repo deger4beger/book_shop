@@ -1,0 +1,45 @@
+
+.pageNumber.selectedPage {
+	font-size: 32px;
+	font-weight: 600;
+	color: var(--main);
+}
+
+.pageNumber {
+/*	display: inline-block;*/
+	padding: 6px 10px;
+	margin: 5px;
+	font-size: 24px;
+	font-weight: 500;
+	transition: 0.2s;
+}
+
+.pageNumber:hover {
+	cursor: pointer;
+	color: var(--main);
+}
+
+.common {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pagesBlock {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	border-top: 1px solid var(--additional);
+}
+
+.button {
+	background: none;
+	color: var(--color);
+	font-size: 14px;
+	font-weight: 500;
+	transition: 0.2s;
+}
+
+.button:hover {
+	color: var(--main);
+}

@@ -1,0 +1,90 @@
+.wrapper {
+	width: 700px;
+	background-color: var(--secBg);
+	border: 1px solid var(--additional);
+	border-radius: 10px;
+	margin-bottom: 40px;
+}
+
+.container {
+	padding: 10px 20px
+}
+
+.upper {
+	display: flex;
+	padding-bottom: 1px;
+	padding-right: 10px;
+	padding-left: 8px;
+	align-items: center;
+	font-style: italic;
+}
+
+.upperContainer {
+	display: inline-block;
+	border-bottom: 1px solid var(--additional);
+	border-right: 1px solid var(--additional);
+	border-bottom-right-radius: 10px;
+}
+
+.author {
+	color: var(--main);
+	text-decoration: underline;
+}
+
+.date {
+	margin-left: 12px;
+	color: var(--forText);
+	font-size: 13px;
+}
+
+.at {
+	margin-right: 1px;
+}
+
+.lower {
+	margin-top: 14px;
+	padding-left: 10px;
+	word-break: break-all;
+	/*font-size: 16px;*/
+}
+
+.likesBlock {
+	display: flex;
+	transition: 0.2s;
+}
+
+.likesBlock.disabled {
+	opacity: 0.7;
+	pointer-events: none;
+}
+
+.like {
+	margin-left: 20px;
+	font-size: 18px;
+	color: var(--forText);
+	font-weight: 500;
+}
+
+.like.right {
+	margin-left: 10px;
+}
+
+.liked {
+	color: var(--main);
+}
+
+.like:hover {
+	cursor: pointer;
+}
+
+@media(max-width: 730px) {
+	.wrapper {
+		width: 400px;
+	}
+}
+
+@media(max-width: 450px) {
+	.wrapper {
+		width: 300px;
+	}
+}

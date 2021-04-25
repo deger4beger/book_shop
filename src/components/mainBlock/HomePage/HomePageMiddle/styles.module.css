@@ -1,0 +1,91 @@
+.sales {
+	width: 100vw;
+	background-color: var(--secBg);
+	margin-top: 40px;
+	border-top: 1px solid var(--additional);
+	border-bottom: 1px solid var(--additional);
+	position: relative;
+	min-height: 547px;
+}
+
+.inner {
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.title {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	color: var(--forText);
+	padding-bottom: 30px;
+}
+
+.arrow2 {
+    cursor: pointer;
+    height: 100px;
+    width: 70px;
+}
+
+/*.arrow2top::after,
+.arrow2bottom::after {
+    background: var(--main);
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.15s;
+}
+.arrow2top::after {
+    left: 100%;
+    right: 0;
+    transition-delay: 0s;
+}
+.arrow2bottom::after {
+    left: 0;
+    right: 100%;
+    transition-delay: 0.15s;
+}
+.arrow2:hover .arrow2top::after {
+    left: 0;
+    transition-delay: 0.15s;
+}
+.arrow2:hover .arrow2bottom::after {
+    right: 0;
+    transition-delay: 0s;
+}*/
+
+.leftArrow {
+	position: absolute;
+	left: 16%;
+	top: 45%;
+}
+
+.rightArrow {
+	position: absolute;
+	right: 16%;
+	top: 45%;
+    transform: rotate(180deg)
+}
+
+.disabled {
+	pointer-events: none;
+	opacity: 0.6;
+}
+
+.preloader {
+    position: absolute;
+    top: 44%;
+    left: 48%;
+}
+
+@media(max-width: 500px) {
+	.inner {
+		width: 99%;
+	}
+}

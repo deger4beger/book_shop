@@ -1,0 +1,76 @@
+.wrapper {
+	width: 750px;
+	border: 1px solid var(--additional);
+	background-color: var(--secBg);
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.totalInfo {
+	margin-top: 4px;
+}
+
+.titleLeft {
+	font-size: 28px;
+	border-bottom: 1px solid var(--additional);
+}
+
+.titleRight {
+	position: relative;
+	border-bottom: 1px solid var(--additional);
+	padding-top: 0;
+}
+
+.statusTitle {
+	position: absolute;
+	left: 24%;
+	bottom: -25px;
+	opacity: 0.8;
+	font-size: 16px;
+}
+
+.distinct {
+	color: var(--main);
+}
+
+.date {
+	font-size: 18px;
+	color: var(--forText);
+}
+
+.inner {
+	padding: 10px 20px;
+}
+
+.infoItem {
+	font-style: italic;
+	color: var(--forText);
+}
+
+.orderItems {
+	margin-top: 20px;
+}
+
+@media(max-width: 970px) {
+	.wrapper {
+		width: 350px;
+	}
+	.titleRight {
+		margin-bottom: 30px;
+		margin-top: 10px;
+	}
+}
+
+@media(max-width: 400px) {
+	.wrapper {
+		width: 300px;
+	}
+
+}

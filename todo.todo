@@ -1,0 +1,19 @@
+3 Cases:
+  ✔ When refresh site helper @done (21-02-24 12:39)
+  ✔ Before every request helper @done (21-02-24 12:39)
+  ✔ When Refresh request error @done (21-02-24 12:39)
+  ✔ do not Refresh middle home page while isAuth changed @done (21-04-14 19:24)
+  ✔ On Enter click comment @done (21-04-14 23:09)
+ ☐ Fix portion number(paginator) when refreshing or unmounting component when will be more books
+ ☐ Refactor cart reduces toggleSelected (double code)
+ ☐ Add global error handler
+ ☐ Add profile form checking on the same
+ ☐ Change Arrows in homepage and oneBook
+ ☐ Transition when onClick Arrow
+ ☐ Adaptive arrows and 2 items instead of 3
+Нихуя не приходит при гед профайл
+
+
+Additional after main functional:
+ ☐ Add to orderForm address, card
+ ☐ Delivery type

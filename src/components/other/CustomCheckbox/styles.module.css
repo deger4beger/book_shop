@@ -1,0 +1,27 @@
+.wrapper {
+  width: 28px;
+  height: 28px;
+  background-color: var(--firstBg);
+  border-radius: 10px;
+  border: 1px solid var(--additional);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.wrapper:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.inner {
+  font-weight: 800;
+  position: relative;
+  top: 1px;
+}
+
+.checked {
+  background-color: var(--main);
+  color: black;
+}

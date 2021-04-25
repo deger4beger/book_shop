@@ -1,0 +1,34 @@
+
+
+.wrapper {
+	display: flex;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.image {
+	width: 80px;
+}
+
+.info {
+	margin-left: 10px;
+}
+
+.upper {
+	display: flex;
+}
+
+.author {
+	font-size: 14px;
+	color: var(--forText);
+}
+
+.price {
+	width: 97px;
+}
+
+.priceItem {
+	font-size: 20px;
+}
