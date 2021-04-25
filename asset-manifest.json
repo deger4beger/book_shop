@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/deger4beger/bookShop/static/css/main.0be4ae0f.chunk.css",
+    "main.js": "/deger4beger/bookShop/static/js/main.c771d841.chunk.js",
+    "main.js.map": "/deger4beger/bookShop/static/js/main.c771d841.chunk.js.map",
+    "runtime-main.js": "/deger4beger/bookShop/static/js/runtime-main.5cd0dbdd.js",
+    "runtime-main.js.map": "/deger4beger/bookShop/static/js/runtime-main.5cd0dbdd.js.map",
+    "static/js/2.c6e04f6b.chunk.js": "/deger4beger/bookShop/static/js/2.c6e04f6b.chunk.js",
+    "static/js/2.c6e04f6b.chunk.js.map": "/deger4beger/bookShop/static/js/2.c6e04f6b.chunk.js.map",
+    "index.html": "/deger4beger/bookShop/index.html",
+    "static/css/main.0be4ae0f.chunk.css.map": "/deger4beger/bookShop/static/css/main.0be4ae0f.chunk.css.map",
+    "static/js/2.c6e04f6b.chunk.js.LICENSE.txt": "/deger4beger/bookShop/static/js/2.c6e04f6b.chunk.js.LICENSE.txt",
+    "static/media/bgBanner.48a5a1a5.png": "/deger4beger/bookShop/static/media/bgBanner.48a5a1a5.png",
+    "static/media/bgImage.8cc8ced4.png": "/deger4beger/bookShop/static/media/bgImage.8cc8ced4.png",
+    "static/media/loadingIcon.14a2773c.svg": "/deger4beger/bookShop/static/media/loadingIcon.14a2773c.svg",
+    "static/media/loadingIconWhite.efd6303c.svg": "/deger4beger/bookShop/static/media/loadingIconWhite.efd6303c.svg",
+    "static/media/loadingMainIcon.6e870d3c.svg": "/deger4beger/bookShop/static/media/loadingMainIcon.6e870d3c.svg",
+    "static/media/logoGirl.5be14d3f.png": "/deger4beger/bookShop/static/media/logoGirl.5be14d3f.png",
+    "static/media/preloaderDark.84a3db4b.svg": "/deger4beger/bookShop/static/media/preloaderDark.84a3db4b.svg",
+    "static/media/preloaderLight.5f35b194.svg": "/deger4beger/bookShop/static/media/preloaderLight.5f35b194.svg",
+    "static/media/smallPreloaderGreen.d2c3525c.svg": "/deger4beger/bookShop/static/media/smallPreloaderGreen.d2c3525c.svg",
+    "static/media/storePreloaderDark.53ae165f.svg": "/deger4beger/bookShop/static/media/storePreloaderDark.53ae165f.svg",
+    "static/media/storePreloaderLight.46a4d03c.svg": "/deger4beger/bookShop/static/media/storePreloaderLight.46a4d03c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cd0dbdd.js",
+    "static/js/2.c6e04f6b.chunk.js",
+    "static/css/main.0be4ae0f.chunk.css",
+    "static/js/main.c771d841.chunk.js"
+  ]
+}
