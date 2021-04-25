@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/deger4beger/bookShop/static/css/main.0be4ae0f.chunk.css",
-    "main.js": "/deger4beger/bookShop/static/js/main.c771d841.chunk.js",
-    "main.js.map": "/deger4beger/bookShop/static/js/main.c771d841.chunk.js.map",
+    "main.js": "/deger4beger/bookShop/static/js/main.5d68df5a.chunk.js",
+    "main.js.map": "/deger4beger/bookShop/static/js/main.5d68df5a.chunk.js.map",
     "runtime-main.js": "/deger4beger/bookShop/static/js/runtime-main.5cd0dbdd.js",
     "runtime-main.js.map": "/deger4beger/bookShop/static/js/runtime-main.5cd0dbdd.js.map",
-    "static/js/2.c6e04f6b.chunk.js": "/deger4beger/bookShop/static/js/2.c6e04f6b.chunk.js",
-    "static/js/2.c6e04f6b.chunk.js.map": "/deger4beger/bookShop/static/js/2.c6e04f6b.chunk.js.map",
+    "static/js/2.6ba64d7d.chunk.js": "/deger4beger/bookShop/static/js/2.6ba64d7d.chunk.js",
+    "static/js/2.6ba64d7d.chunk.js.map": "/deger4beger/bookShop/static/js/2.6ba64d7d.chunk.js.map",
     "index.html": "/deger4beger/bookShop/index.html",
     "static/css/main.0be4ae0f.chunk.css.map": "/deger4beger/bookShop/static/css/main.0be4ae0f.chunk.css.map",
-    "static/js/2.c6e04f6b.chunk.js.LICENSE.txt": "/deger4beger/bookShop/static/js/2.c6e04f6b.chunk.js.LICENSE.txt",
+    "static/js/2.6ba64d7d.chunk.js.LICENSE.txt": "/deger4beger/bookShop/static/js/2.6ba64d7d.chunk.js.LICENSE.txt",
     "static/media/bgBanner.48a5a1a5.png": "/deger4beger/bookShop/static/media/bgBanner.48a5a1a5.png",
     "static/media/bgImage.8cc8ced4.png": "/deger4beger/bookShop/static/media/bgImage.8cc8ced4.png",
     "static/media/loadingIcon.14a2773c.svg": "/deger4beger/bookShop/static/media/loadingIcon.14a2773c.svg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5cd0dbdd.js",
-    "static/js/2.c6e04f6b.chunk.js",
+    "static/js/2.6ba64d7d.chunk.js",
     "static/css/main.0be4ae0f.chunk.css",
-    "static/js/main.c771d841.chunk.js"
+    "static/js/main.5d68df5a.chunk.js"
   ]
 }
