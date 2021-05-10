@@ -1,1 +1,1 @@
-# Book Shop project (React + Redux + ReduxThunk + ReduxSaga)
+# Book Shop project (React + Redux + ReduxThunk + ReduxSaga + ReactFinalForm)
