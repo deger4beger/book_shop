@@ -1,19 +1,14 @@
-3 Cases:
-  ✔ When refresh site helper @done (21-02-24 12:39)
-  ✔ Before every request helper @done (21-02-24 12:39)
-  ✔ When Refresh request error @done (21-02-24 12:39)
-  ✔ do not Refresh middle home page while isAuth changed @done (21-04-14 19:24)
-  ✔ On Enter click comment @done (21-04-14 23:09)
- ☐ Fix portion number(paginator) when refreshing or unmounting component when will be more books
- ☐ Refactor cart reduces toggleSelected (double code)
- ☐ Add global error handler
- ☐ Add profile form checking on the same
- ☐ Change Arrows in homepage and oneBook
- ☐ Transition when onClick Arrow
- ☐ Adaptive arrows and 2 items instead of 3
-Нихуя не приходит при гед профайл
+ 1:
+   ☐ История всех анализов и возможность скачать
+   ☐ График результатов по всем выбросам, по месяц и т.д(макс. мин. выбросы и энергоэффективность за все время и тд)
+   ☐ дашборд на мейн страницы со средним перфомансом на текущий момент в лайв режиме
+   ☐ каждый специалист вбивает только свои данные, для уменьшения документооборота (4 группы)
+   ☐ чат на сокетах, для персонала с возможностью @тегать, других юзеров, и список юзеров при @
+   ☐ список юзеров у мастера в профиле чтоб проверять людей
+   ☐ для 3 группы возможность скачать excel(по приколу)
+   ☐ Сделать редактирование отправленных данных для 1 и 2 группы в течении (5-10мин)
 
 
-Additional after main functional:
- ☐ Add to orderForm address, card
- ☐ Delivery type
+   ☐ проверить токен на истечение перед запросом
+   ☐ скролл вниз при выборе объекта
+   ☐ рефреш, ремембер ми, секрет кей при регистрации, роуты защищенные затемнить для UI если не логирован

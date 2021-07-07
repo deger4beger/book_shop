@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { AppContainer } from './AppContainer'
 import { YMaps } from 'react-yandex-maps'
 import store from "./redux/store"
 import NotificationProvider from './components/other/Alert/AlertProvider';
 
 ReactDOM.render(
-	<BrowserRouter>
+	<HashRouter>
 		<YMaps>
 			<NotificationProvider>
 				<Provider store={store}>
@@ -16,7 +16,7 @@ ReactDOM.render(
 				</Provider>
 			</NotificationProvider>
 		</YMaps>
-	</BrowserRouter>,
+	</HashRouter>,
   document.getElementById('root')
 );
 

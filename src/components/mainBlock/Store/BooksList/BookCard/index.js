@@ -38,7 +38,9 @@ const BookCard = React.memo(({name, author, image, price, id, getBooks, rating, 
             { sale && <div className={s.sale}>{parseFloat(sale)} %</div> }
             <div className={s.inner}>
                 <div className={s.higher}>
-                    <img src={image} alt="" className={s.bookIcon}/>
+                    <Link to={`book/${id}`} className={s.link}>
+                        <img src={image} alt="" className={s.bookIcon}/>
+                    </Link>
                     <div className={s.rating} style={{color: ratingColor}}>
                         {rating ? parseFloat(rating) : "-"}
                     </div>
