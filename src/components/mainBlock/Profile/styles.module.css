@@ -34,10 +34,12 @@
 
 .middle {
 	margin-top: 35px;
+	border-bottom: 1px solid var(--additional);
+	padding-bottom: 40px;
 }
 
 .lower {
-	padding-bottom: 50px;
+	padding-bottom:60px;
 }
 
 @media(max-width: 500px) {

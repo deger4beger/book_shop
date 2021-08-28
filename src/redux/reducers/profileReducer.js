@@ -46,7 +46,6 @@ export const getProfileTC = () => async (dispatch) => {
 	try {
 		dispatch(toggleIsLoadingAC("profile", true))
 		const response = await profileApi.getProfile()
-		console.log(response)
 		if (response.orderData) {
 			dispatch(setProfileDataAC(response))
 		} else {
@@ -75,7 +74,7 @@ export const updateOrderDataTC = (payload) => async (dispatch) => {
 }
 
 const toggleIsLoadingAC = (id, isLoading) => ({type: TOGGLE_IS_LOADING, id, isLoading})
-const setProfileDataAC = (data) => ({type: SET_PROFILE_DATA, data})
-export const setOrderDataAC = (data) => ({type: SET_ORDER_DATA, data})
+export const setProfileDataAC = (data) => ({type: SET_PROFILE_DATA, data})
+const setOrderDataAC = (data) => ({type: SET_ORDER_DATA, data})
 
 export default profileReducer
